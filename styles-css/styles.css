@@ -1,0 +1,368 @@
+body#background00 {
+  background-color: #ededed;
+  background-image: url(https://i.imgur.com/qVHGAZ2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body#background00 h1 {
+  font-family: brandon grotesque;
+  font-size: 30px;
+  text-align: center;
+}
+
+body#background01 {
+  background-color: #ededed;
+  background-image: url(https://i.imgur.com/avUW5dl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body#background02, body#background03 {
+  background-color: #ededed;
+  background-image: url(https://i.imgur.com/uPoCLOz.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+table#t01 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 300px;
+  width: 1000px;
+  table-layout: fixed;
+}
+
+table#t02 {
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+table#t03 {
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-style: solid;
+  border-width: 9px;
+  width: 300px;
+  height: 60px;
+  border-color: #676e5e;
+}
+
+td#d01 {
+  background-color: #dc8d6c;
+  border: 60px solid #ededed;
+}
+
+td#d02 {
+  background-color: #97a884;
+  border: 60px solid #ededed;
+}
+
+td#d03 {
+  background-color: #e7c794;
+  border: 60px solid #ededed;
+}
+
+ul {
+  margin: auto;
+}
+
+.navbarcustom {
+  width: 600px;
+  height: 50px;
+  margin-top: 20%;
+  margin-left: 43%;
+  margin-right: 5%;
+}
+.navbarcustom p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.headerColor {
+  background-color: #97a884;
+  height: 50px;
+}
+
+.navstyles {
+  font-family: brandon grotesque;
+  font-size: 13px;
+}
+
+.homefiller {
+  margin-top: 10px;
+  margin-left: 54%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.homefiller h2 {
+  font-family: contento script;
+  font-size: 40px;
+  color: white;
+}
+.homefiller p {
+  font-family: brandon grotesque;
+  font-size: 13px;
+  color: white;
+}
+
+.textarea {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.textarea p {
+  font-family: brandon grotesque;
+  font-size: 13px;
+  color: black;
+  text-align: justify;
+}
+
+.subheading {
+  font-family: brandon grotesque;
+}
+.subheading h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #676e5e;
+  text-align: center;
+}
+
+.transbox {
+  width: 700px;
+  height: 325px;
+  background-color: #cdd6a9;
+}
+.transbox h1 {
+  padding-top: 3%;
+  font-size: 45px;
+  font-family: contento script;
+  text-align: center;
+}
+.transbox p {
+  font-size: 12px;
+  font-family: brandon grotesque;
+  line-height: 1.4;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.captionleft p {
+  margin-top: 8%;
+  margin-left: 40%;
+  font-size: 15px;
+  font-family: brandon grotesque;
+  text-align: justify;
+}
+.captionleft p i {
+  color: #676e5e;
+}
+
+.captionright p {
+  margin-top: 8%;
+  margin-right: 40%;
+  font-size: 15px;
+  font-family: brandon grotesque;
+  text-align: justify;
+}
+.captionright p i {
+  color: #676e5e;
+}
+
+.center, .editimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.editimage {
+  margin-top: 20%;
+}
+
+.p2header {
+  padding-top: 3%;
+}
+.p2header p {
+  text-align: center;
+  font-family: brandon grotesque;
+  font-size: 13px;
+}
+
+.p3container {
+  border-left-color: #676e5e;
+  border-left-style: solid;
+  border-left-width: 8px;
+  width: 600px;
+  margin-left: 350px;
+  margin-right: auto;
+  margin-top: 55px;
+}
+.p3container h1 {
+  font-family: contento script;
+  font-size: 50px;
+  color: #676e5e;
+  text-align: left;
+  padding-left: 40px;
+}
+.p3container p {
+  font-family: brandon grotesque;
+  font-size: 13px;
+  color: #676e5e;
+  padding-left: 40px;
+}
+
+.p3write {
+  margin-top: 100px;
+}
+.p3write table {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p3write table tr td {
+  width: 50%;
+  padding-right: 30px;
+  /* When moving the mouse over the submit button, add a darker green color */
+}
+.p3write table tr td p {
+  font-family: brandon grotesque;
+  font-size: 14px;
+  text-align: right;
+  color: #676e5e;
+}
+.p3write table tr td input[type=text], .p3write table tr td select, .p3write table tr td textarea {
+  background-color: #e6e7d5;
+  width: 100%;
+  font-family: brandon grotesque;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #676e5e;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 9px;
+}
+.p3write table tr td input[type=submit] {
+  background-color: #676e5e;
+  font-family: brandon grotesque;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.p3write table tr td input[type=submit]:hover {
+  background-color: #e6e7d5;
+}
+
+.hypertext {
+  font-family: brandon grotesque;
+  font-size: 14px;
+}
+
+.hypertext:link {
+  color: black;
+}
+
+.hypertext:visited {
+  color: black;
+}
+
+.hypertext:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.hypertext:active {
+  color: black;
+}
+
+.section {
+  margin-top: 15%;
+}
+
+.sectionsm {
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  body#background01 {
+    background-image: url(https://i.imgur.com/lAyxyzB.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
+
+  table#t01 {
+    width: 500px;
+    height: 175px;
+  }
+
+  td#d01 {
+    border: 20px solid #ededed;
+  }
+
+  td#d02 {
+    border: 20px solid #ededed;
+  }
+
+  td#d03 {
+    border: 20px solid #ededed;
+  }
+
+  .navbarcustom {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .homefiller {
+    margin-top: 3%;
+  }
+  .homefiller h2 {
+    font-size: 30px;
+  }
+  .homefiller p {
+    font-size: 11px;
+    margin-top: 11%;
+    line-height: 1;
+  }
+
+  table#t02 {
+    width: 350px;
+    margin-top: 18%;
+  }
+  table#t02 td img {
+    display: none;
+  }
+
+  .transbox {
+    width: 350px;
+    height: 430px;
+    margin-left: 25%;
+  }
+
+  .p3container {
+    margin-left: 150px;
+    margin-top: 55px;
+    width: 400px;
+  }
+  .p3container h1 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
